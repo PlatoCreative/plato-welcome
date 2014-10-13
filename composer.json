@@ -1,5 +1,5 @@
 {
-    "name": "PlatoCreative/plato-welcome",
+    "name": "plato-creative/plato-welcome",
     "description": "Welcome screen for Silverstripe CMS",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "plato creative", "loading", "welcome"],
