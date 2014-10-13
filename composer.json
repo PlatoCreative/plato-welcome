@@ -2,6 +2,7 @@
     "name": "plato-creative/plato-welcome",
     "description": "Welcome screen for Silverstripe CMS",
     "type": "silverstripe-module",
+    "version": "1.0.0",
     "keywords": ["silverstripe", "plato creative", "loading", "welcome"],
     "require": {
         "php": ">=5.3.0",
