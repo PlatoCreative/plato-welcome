@@ -1,0 +1,6 @@
+.ss-loading-screen .loading-logo { 
+	background: url(../images/loading.png) no-repeat center;
+}
+.ss-loading-screen .loading-logo  .loading-animation { 
+	margin-top: 130px;
+}
