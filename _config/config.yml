@@ -1,0 +1,9 @@
+---
+Name: plato-welcome
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+LeftAndMain:
+  extra_requirements_css:
+    - 'plato-welcome/css/admin.css'
