@@ -1,10 +1,12 @@
-plato-welcome
-=============
+# Platocreative Welcome screen
 
-Welcome screen for Silverstripe CMS.
+Simply replaces the silverstripe loading image with a Plato Creative logo.
 
-Simply include this module in the root directory of your site and it will automatically start working.
+## Requirements
+- silverstripe/admin ^1.0
 
-All it does is simply replce the silverstripe loading image with a Plato Creative logo.
-
-Install `composer require plato-creative/plato-welcome dev-master`
+## Installation
+Using [Composer](https://getcomposer.org/), insert the following into your command line.
+```
+composer require plato-creative/plato-welcome
+```

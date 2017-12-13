@@ -1,0 +1,39 @@
+$white: #fff;
+$black: #000;
+
+.ss-loading-screen{
+    background-color: $black;
+    &::before {
+        width: 400px;
+        height: 400px;
+        content: '';
+        font-family: serif;
+        background: $black url(../img/loading.png) no-repeat center;
+    }
+    &__text {
+        color: $white;
+        &::before{
+            color: $black;
+        }
+    }
+    &__text-dots {
+        color: $black;
+        &::before{
+            color: $white;
+            animation: platoloading 3s infinite;
+        }
+    }
+}
+
+@keyframes platoloading {
+    0% {
+        max-width: 0;
+    }
+    80% {
+        max-width: 80%;
+        color: mix($white, $black, 80%);
+    }
+    to {
+        color: $white;
+    }
+}

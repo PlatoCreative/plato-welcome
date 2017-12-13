@@ -1,9 +1,8 @@
 ---
 Name: plato-welcome
 After:
-  - 'framework/*'
-  - 'cms/*'
+  - 'silverstripe/admin'
 ---
-LeftAndMain:
+SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-    - 'plato-welcome/css/admin.css'
+    - 'plato-creative/plato-welcome: css/plato-welcome.css'
