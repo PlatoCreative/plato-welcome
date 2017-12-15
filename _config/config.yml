@@ -5,4 +5,4 @@ After:
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-    - 'plato-creative/plato-welcome: css/plato-welcome.css'
+    - 'plato-creative/plato-welcome: client/css/plato-welcome.css'

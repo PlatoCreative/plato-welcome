@@ -13,6 +13,9 @@
     "silverstripe/admin": "^1.0"
   },
   "extra": {
-    "installer-name": "plato-welcome"
+    "installer-name": "plato-welcome",
+    "expose": [
+      "client"
+    ]
   }
 }
